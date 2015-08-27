@@ -24,22 +24,6 @@ Add a NoticeLayout in your layout
 NoticeLayout noticeLayout = (NoticeLayout)findViewById(R.id.noticeLayout);
 noticeLayout.show(true);
 
-#Credits
-
-Author: Florent Champigny
-
-<a href="https://plus.google.com/+florentchampigny">
-  <img alt="Follow me on Google+"
-       src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/gplus.png" />
-</a>
-<a href="https://twitter.com/florent_champ">
-  <img alt="Follow me on Twitter"
-       src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/twitter.png" />
-</a>
-<a href="https://www.linkedin.com/profile/view?id=297860624">
-  <img alt="Follow me on LinkedIn"
-       src="https://raw.githubusercontent.com/florent37/DaVinci/master/mobile/src/main/res/drawable-hdpi/linkedin.png" />
-</a>
 License
 --------
 
