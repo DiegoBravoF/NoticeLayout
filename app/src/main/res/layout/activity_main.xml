@@ -1,0 +1,23 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:notice="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.dive.notice.NoticeLayout
+        android:id="@+id/noticeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        notice:acceptBackground="@color/green"
+        notice:acceptText="@string/accept"
+        notice:cancelBackground="@color/red"
+        notice:cancelText="@string/cancel"
+        notice:contentText="@string/textLorem"
+        notice:tittleColor="@color/white"
+        notice:animIn="slideBottom"
+        notice:animOut="slideTop"
+        notice:tittleText="@string/tittleLorem"/>
+
+</RelativeLayout>

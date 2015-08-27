@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="NoticeLayout">
+        <attr name="cancelText" format="string"  />
+        <attr name="acceptText" format="string" />
+        <attr name="tittleText" format="string" />
+        <attr name="contentText" format="string" />
+        <attr name="cancelButton" format="boolean" />
+        <attr name="acceptButton" format="boolean" />
+        <attr name="fullScreen" format="boolean" />
+        <attr name="imgNotice" format="integer" />
+        <attr name="acceptBackground" format="integer" />
+        <attr name="acceptColor" format="integer" />
+        <attr name="cancelBackground" format="integer" />
+        <attr name="cancelColor" format="integer" />
+        <attr name="tittleColor" format="integer" />
+        <attr name="contentColor" format="integer" />
+        <attr name="animIn" format="enum" >
+            <enum name="slideRight" value="0" />
+            <enum name="slideLeft" value="1" />
+            <enum name="slideTop" value="2" />
+            <enum name="slideBottom" value="3" />
+        </attr>
+        <attr name="animOut" format="enum">
+            <enum name="slideRight" value="0" />
+            <enum name="slideLeft" value="1" />
+            <enum name="slideTop" value="2" />
+            <enum name="slideBottom" value="3" />
+        </attr>
+    </declare-styleable>
+
+</resources>
