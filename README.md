@@ -1,3 +1,5 @@
+[![Android Gems](http://www.android-gems.com/badge/Diveno/NoticeLayout.svg?branch=master)](http://www.android-gems.com/lib/Diveno/NoticeLayout)
+
 # NoticeLayout
 Library for notice 
 #Usage
